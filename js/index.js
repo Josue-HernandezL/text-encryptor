@@ -4,9 +4,9 @@ const decriptar = document.getElementById("desencriptar");
 const logo = document.getElementById("logo");
 let encriptado = "";
 
-        /* logo.addEventListener("click", () => {
+        logo.addEventListener("click", () => {
             window.location.href = "./index.html";
-        }); */
+        }); 
     
         encriptar.addEventListener("click", () => {
 
