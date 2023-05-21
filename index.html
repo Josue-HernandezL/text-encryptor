@@ -29,6 +29,8 @@
                 <input class="text_encript" id="textEncripted" type="text" placeholder="Ingrese el texto aqui: en minusculas y sin acentos">
                 <div class="buttons">
 
+                    <p id="alerta"></p>
+
                     <input id="encriptar" type="button" value="Encriptar">
                     <input id="desencriptar" type="button" value="Desencriptar">
 
@@ -44,12 +46,14 @@
 
        <article class="content">
 
-        <img src="./assets/muñeco.svg" alt="" class="img_muñeco">
+        <p id="text_add"></p>
 
-        <div class="text">
+        <img src="./assets/muñeco.svg" alt="" class="img_muñeco remover" >
 
-            <h2>Ningún mensaje fue encontrado</h2>
-            <p>Ingrese el texto que desees encriptar o desencriptar</p>
+        <div class="text" id="text">
+
+            <h2 class="remover">Ningún mensaje fue encontrado</h2>
+            <p class="remover">Ingrese el texto que desees encriptar o desencriptar</p>
 
         </div>
 

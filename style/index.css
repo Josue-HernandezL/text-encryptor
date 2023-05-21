@@ -114,6 +114,7 @@ article .img_muñeco {
     width: 250px;
 }
 
+
 .text h2 {
     font-size: 20px;
     margin-bottom: 25px;
@@ -123,3 +124,42 @@ article .img_muñeco {
 }
 
 /* Clases agregadas */
+
+.text_add {
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+}
+.button_add {
+    cursor: pointer;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: auto;
+    height: auto;
+    padding: 10px 40px;
+    margin-top: 20px;
+
+}
+
+.alerta {
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #0A3871;
+}
+
+.buttons .alerta {
+    background-color: #5c8dc5;
+    color: #F3F5FC;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 1px 6px 42px -1px rgba(0,0,0,0.61);
+    -moz-box-shadow: 1px 6px 42px -1px rgba(0,0,0,0.61);
+    box-shadow: 1px 6px 42px -1px rgba(0,0,0,0.61);
+}
