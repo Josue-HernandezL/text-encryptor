@@ -1,17 +1,22 @@
-*{
+html {
+    box-sizing: border-box;
+}
+
+  
+*, *::before, *::after {
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
     font-family: 'Roboto Mono', monospace;
 }
+
 
 html, body{
     height:100%;
     width: 100%;
     margin:0;
     display: flex;
-    background-color: #F3F5FC
+    background-color: #F3F5FC;
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
@@ -92,26 +97,26 @@ form .buttons {
 }
 
 .content {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    height: 95%;
-    width: 90%;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 30px;
-}
-
-.content {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
     height: 95%;
+    width: 70%;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
     text-align: center;
 }
 
 article .img_muñeco {
     height: 250px;
     width: 250px;
+}
+
+.text {
+    margin: 10px 0;
+    width: 90%;
 }
 
 

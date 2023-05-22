@@ -1,0 +1,1 @@
+(Ver demo)[https://text-encryptionjs.netlify.app/]
